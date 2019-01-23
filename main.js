@@ -27,4 +27,16 @@ const cardnpx =
     `${data.card}`
 
 // Appel de la carte et stylisation
+
+//I'm an artist
+const da = `                                      __             _` + intrlgn;
+const db = `                                     / *_)       ___|_|_ _ _ _ ` + intrlgn;
+const dc = `                          _.----. _ /../        | -_| | | | | |` + intrlgn;
+const dd = `                        /............./         |___|_| _/|_  |` + intrlgn;
+const de = `                     __/..(...|.(...|                     |___|` + intrlgn;
+const df = `                    /__.-|_|--|_|` + intrlgn;
+
+
+console.log(gradient.summer(                `${da}`+`${db}`+`${dc}`+`${dd}`+`${de}`+`${df}`));
+
 console.log(chalk.magenta(boxen(`${cardnpx}`, {padding: 1, margin: 1, borderStyle: 'round'})));

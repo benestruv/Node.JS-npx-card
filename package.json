@@ -1,0 +1,27 @@
+{
+  "name": "@eivy-chan/card",
+  "version": "1.0.0",
+  "description": "npx card Benedicte Struvay",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benestruv/Node.JS-npx-card.git"
+  },
+  "author": "Benedicte Struvay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benestruv/Node.JS-npx-card/issues"
+  },
+  "homepage": "https://github.com/benestruv/Node.JS-npx-card#readme",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.2",
+    "gradient-string": "^1.2.0"
+  },
+  "bin": {
+    "eivy-chan": "./main.js"
+  }
+}
